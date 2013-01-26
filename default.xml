@@ -6,4 +6,5 @@
     <project name="7k/django-project" path="project"/>
     <project name="7k/django-basic-apps" path="basic-apps"/>
     <project name="7k/django-mlib" path="project/player"/>
+    <project name="7k/django-torrent" path="project/torrent"/>
 </manifest>
