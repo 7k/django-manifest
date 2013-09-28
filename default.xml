@@ -3,9 +3,9 @@
     <remote name="tk" fetch="git://tak.atso-net.jp" review="tak.atso-net.jp:8080/review" />
     <remote name="github" fetch="git://github.com" review="tak.atso-net.jp:8080/review"/>
     <default revision="master" remote="github"/>
-    <project name="7k/django-project" path="project"/>
-    <project name="7k/django-basic-apps" path="basic-apps"/>
-    <project name="7k/django-mlib" path="player"/>
-    <project name="7k/django-torrent" path="torrent"/>
-    <project name="7k/django-base" path="base"/>
+    <project name="tkanemoto/django-project" path="project"/>
+    <project name="tkanemoto/django-basic-apps" path="basic-apps"/>
+    <project name="tkanemoto/django-mlib" path="player"/>
+    <project name="tkanemoto/django-torrent" path="torrent"/>
+    <project name="tkanemoto/django-base" path="base"/>
 </manifest>
