@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="git://github.com" review="tak.atso-net.jp:8080/review"/>
+    <remote name="origin" fetch=".." review="http://tkanemoto.ddns.net/review/"/>
     <default revision="master" remote="origin"/>
-    <project name="tkanemoto/django-base" path="apps/base"/>
+    <project name="tkanemoto/django-base" path="site/apps/base"/>
     <project name="tkanemoto/django-basic-apps" path="basic-apps"/>
-    <project name="tkanemoto/django-mlib" path="apps/player"/>
-    <project name="tkanemoto/django-project" path="project">
-        <copyfile src="manage.py" dest="manage.py"/>
-        <copyfile src="root.mk" dest="Makefile"/>
-    </project>
-    <project name="tkanemoto/django-torrent" path="apps/torrent"/>
+    <project name="tkanemoto/django-mlib" path="site/apps/player"/>
+    <project name="tkanemoto/django-site" path="site"/>
+    <project name="tkanemoto/django-torrent" path="site/apps/torrent"/>
 </manifest>
