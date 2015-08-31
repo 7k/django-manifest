@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="tk" fetch="git://tak.atso-net.jp" review="tak.atso-net.jp:8080/review" />
-    <remote name="github" fetch="git://github.com" review="tak.atso-net.jp:8080/review"/>
-    <default revision="master" remote="github"/>
+    <remote name="origin" fetch="git://github.com" review="tak.atso-net.jp:8080/review"/>
+    <default revision="master" remote="origin"/>
     <project name="tkanemoto/django-base" path="apps/base"/>
     <project name="tkanemoto/django-basic-apps" path="basic-apps"/>
     <project name="tkanemoto/django-mlib" path="apps/player"/>
     <project name="tkanemoto/django-project" path="project">
         <copyfile src="manage.py" dest="manage.py"/>
+        <copyfile src="root.mk" dest="Makefile"/>
     </project>
     <project name="tkanemoto/django-torrent" path="apps/torrent"/>
 </manifest>
