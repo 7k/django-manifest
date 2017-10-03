@@ -3,8 +3,6 @@
     <remote name="origin" fetch=".." review="http://tkanemoto.ddns.net/review/"/>
     <default revision="master" remote="origin"/>
     <project name="tkanemoto/django-base" path="site/apps/base"/>
-    <project name="tkanemoto/django-basic-apps" path="basic-apps"/>
     <project name="tkanemoto/django-mlib" path="site/apps/player"/>
     <project name="tkanemoto/django-site" path="site"/>
-    <project name="tkanemoto/django-torrent" path="site/apps/torrent"/>
 </manifest>
